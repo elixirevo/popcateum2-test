@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), {{.GoBootPackage}}
 Standards-Version: 3.9.5
-Homepage: https://ethereum.org
+Homepage: https://popcateum.org
 Vcs-Git: https://github.com/popcateum/go-popcateum.git
 Vcs-Browser: https://github.com/popcateum/go-popcateum
 

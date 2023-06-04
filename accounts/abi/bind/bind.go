@@ -17,7 +17,7 @@
 // Package bind generates Popcateum contract Go bindings.
 //
 // Detailed usage document and tutorial available on the go-popcateum Wiki page:
-// https://github.com/popcateum/go-popcateum/wiki/Native-DApps:-Go-bindings-to-Popcateum-contracts
+// https://github.com/ethereum/go-ethereum/wiki/Native-DApps:-Go-bindings-to-Popcateum-contracts
 package bind
 
 import (

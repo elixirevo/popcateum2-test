@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo/popcateum.png" width="350" alt="popcateum" />
+</p>
+
 ## Go Popcateum
 
 Official Golang execution layer implementation of the Popcateum protocol.
@@ -157,7 +161,7 @@ Docker:
 
 ```shell
 docker run -d --name popcateum-node -v /Users/alice/popcateum:/root \
-           -p 8545:8545 -p 30303:30303 \
+           -p 9506:9506 -p 60606:60606 \
            popcateum/client-go
 ```
 
@@ -188,7 +192,7 @@ HTTP based JSON-RPC API options:
 
   * `--http` Enable the HTTP-RPC server
   * `--http.addr` HTTP-RPC server listening interface (default: `localhost`)
-  * `--http.port` HTTP-RPC server listening port (default: `8545`)
+  * `--http.port` HTTP-RPC server listening port (default: `9506`)
   * `--http.api` API's offered over the HTTP-RPC interface (default: `eth,net,web3`)
   * `--http.corsdomain` Comma separated list of domains from which to accept cross origin requests (browser enforced)
   * `--ws` Enable the WS-RPC server
@@ -353,7 +357,7 @@ testing procedures.
 ### Contributing to gpop.ethereum.org
 
 For contributions to the [go-popcateum website](https://gpop.ethereum.org), please checkout and raise pull requests against the `website` branch.
-For more detailed instructions please see the `website` branch [README](https://github.com/popcateum/go-popcateum/tree/website#readme) or the 
+For more detailed instructions please see the `website` branch [README](https://github.com/ethereum/go-ethereum/tree/website#readme) or the 
 [contributing](https://gpop.ethereum.org/docs/developers/gpop-developer/contributing) page of the website.
 
 ## License

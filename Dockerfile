@@ -22,7 +22,7 @@ FROM alpine:latest
 RUN apk add --no-cache ca-certificates
 COPY --from=builder /go-popcateum/build/bin/gpop /usr/local/bin/
 
-EXPOSE 8545 8546 30303 30303/udp
+EXPOSE 9506 9507 60606 60606/udp
 ENTRYPOINT ["gpop"]
 
 # Add some metadata labels to help programatic image consumption
